@@ -5,7 +5,7 @@ apt-get install curl bash git -y
 
 gem install lolcat
 
-git clone http://github/BangZatters/BruteDeface-curl
+git clone https://github/BangZatters/BruteDeface-curl
 
 cd BruteDeface-curl
 
