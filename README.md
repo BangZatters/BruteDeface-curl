@@ -1,7 +1,8 @@
 # BruteDeface-curl
 
 Assalamualaikum wr.wb
-Tools Versi = 1.0
+Tools Versi = 1.1
+Perbaruan = Penghapusan lolcat
 Tools ini Berfungsi Agar Kalian Saat Mau Deface Banyak Bisa Langsung Sekaligus.
 Jika Ada Kesalahan di Tools ini Saya Mohon Maaf Yang Sebesar-Besarnya.
 
