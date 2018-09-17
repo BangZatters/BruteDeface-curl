@@ -1664,7 +1664,32 @@ fi
 if [ $ju = 30 ]
 then
 clear
-cat BPI.txt | lolcat
+echo -e $a ''
+cat BPI.txt
+sleep 1
+clear
+echo -e $b ''
+cat BPI.txt
+sleep 1
+clear
+echo -e $c ''
+cat BPI.txt
+sleep 1
+clear
+echo -e $d ''
+cat BPI.txt
+sleep 1
+clear
+echo -e $e ''
+cat BPI.txt
+sleep 1
+clear
+echo -e $f ''
+cat BPI.txt
+sleep 1
+clear
+echo -e $g ''
+cat BPI.txt
 echo -e $a ''
 read -p ' Target pertama : ' ke1
 echo -e $b ''
@@ -1803,6 +1828,6 @@ echo "Cek : $ke27/$sc"
 echo "Cek : $ke28/$sc"
 echo "Cek : $ke29/$sc"
 echo "Cek : $ke30/$sc"
-echo 'Jika Tidak bisa diAkses Berarti Gagal' | lolcat
-echo 'Bay-Bay' | lolcat
+echo -e $b 'Jika Tidak bisa diAkses Berarti Gagal'
+echo -e $c 'Bay-Bay' | lolcat
 fi
